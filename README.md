@@ -6,6 +6,10 @@
 
 LinkedInPromptKit is a toolkit designed to assist users in generating and updating resumes optimized for platforms like LinkedIn, Greenhouse, and Workday. Utilizing advanced prompt engineering techniques, this tool ensures that your CV aligns with Applicant Tracking Systems (ATS) and recruiter expectations.
 
+ATS-Friendly CV: Focus on keyword optimization, structured formatting, and measurable achievements. Avoid unnecessary graphics or images.
+LinkedIn Profile: While slightly more flexible, LinkedIn should still maintain ATS-compatible formatting, especially for the Experience, Skills, and Education sections.
+Make Both Sections Complement Each Other: Your LinkedIn profile should be a dynamic and rich representation of your CV but with some additional flexibility. Projects, publications, and career interests are areas where LinkedIn can stand out.
+
 #### Features
 
 - **Prompt Templates**: Predefined prompts tailored for various industries and roles.
