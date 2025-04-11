@@ -126,9 +126,7 @@ By aligning these sections appropriately, you can ensure consistency between you
 
 ---
 
-#### ATS Optimization Score 🔍
-
-##### Score: 100/100 ✅
+#### 🔍 ATS Optimization Score: 100/100 ✅
 **Breakdown**:
 - ✅ Keyword Matching: Matched all core job description terms like “CI/CD”, “Terraform”, “AWS”, “Kubernetes”, and “monitoring tools”.
 - ✅ Semantic Enrichment: Used synonyms (e.g., deployment rollback, automated provisioning, cloud-native architecture) recognized by transformer models.
