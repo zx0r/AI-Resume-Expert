@@ -21,6 +21,9 @@ If your current resume is not available, you can continue to build a customized 
 
 Once this data is received, your CV/LinkedInProfile will be created from scratch, aligning it with the requirements of the desired position and ensuring that it follows ATS optimization best practices.
 
+> Prompt 2 To generate a high-quality, ATS-optimized resume that effectively navigates AI resume screening systems, consider the following optimized prompt
+> resume_optimization-prompt.yaml  Updating your current resume for a specific [Target Role] in the [Target Industry]
+
 #### Features
 
 - **Prompt Templates**: Predefined prompts tailored for various industries and roles.
