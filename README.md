@@ -6,7 +6,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/zx0r/LinkedIn-AI-Prompts)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![ATS Score](https://img.shields.io/badge/ATS_Score-100%2F100-brightgreen)](README.md#ats-ccore-estimate)
+[![ATS Score](https://img.shields.io/badge/ATS_Score-100%2F100-brightgreen)](README.md#ats-optimisation-score)
 ![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin) 
 ![Greenhouse](https://img.shields.io/badge/-Greenhouse-23D49B)
 ![Workday](https://img.shields.io/badge/-Workday-2D5DF5)
@@ -126,8 +126,9 @@ By aligning these sections appropriately, you can ensure consistency between you
 
 ---
 
-**ATS-Score Estimate: 100 / 100**
+#### ATS Optimization Score 🔍
 
+##### Score: 100/100 ✅
 **Breakdown**:
 - ✅ Keyword Matching: Matched all core job description terms like “CI/CD”, “Terraform”, “AWS”, “Kubernetes”, and “monitoring tools”.
 - ✅ Semantic Enrichment: Used synonyms (e.g., deployment rollback, automated provisioning, cloud-native architecture) recognized by transformer models.
