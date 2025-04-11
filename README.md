@@ -2,7 +2,7 @@
 
 **Empowering Resume Creation through Prompt Engineering**
 
-# ![Banner Image](assets/banner.png)
+<!-- ![Banner Image](assets/banner.png) -->
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/zx0r/LinkedIn-AI-Prompts)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
