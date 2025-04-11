@@ -10,6 +10,17 @@ LinkedInPromptKit is a toolkit designed to assist users in generating and updati
 - LinkedIn Profile: While slightly more flexible, LinkedIn should still maintain ATS-compatible formatting, especially for the Experience, Skills, and Education sections.
 - Make Both Sections Complement Each Other: Your LinkedIn profile should be a dynamic and rich representation of your CV but with some additional flexibility. Projects, publications, and career interests are areas where LinkedIn can stand out.
 
+If your current resume is not available, you can continue to build a customized profile using the information you provided about your:
+- Target Role: What specific role are you aiming for (e.g. AI Hint Engineer, LLM Developer, DevOps Engineer)?
+- Target Industry: The industry you are focused on (e.g. FinTech, AI Research, Machine Learning, or another technical area).
+- Relevant Experience: Key skills, projects, and professional accomplishments that are most relevant to the target role.
+- Education: Your academic background, certifications, and any relevant coursework.
+- Skills: Both hard and soft skills applicable to the role.
+- Projects or Publications: If you have any open source projects, contributions, or publications that can demonstrate your expertise.
+- Portfolio: Links to your GitHub or other public repositories or websites that showcase your work.
+
+Once this data is received, your CV/LinkedInProfile will be created from scratch, aligning it with the requirements of the desired position and ensuring that it follows ATS optimization best practices.
+
 #### Features
 
 - **Prompt Templates**: Predefined prompts tailored for various industries and roles.
