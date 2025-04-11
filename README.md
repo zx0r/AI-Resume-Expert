@@ -1,6 +1,9 @@
 ## LinkedIn-AI-Prompts
 
 **Empowering Resume Creation through Prompt Engineering**
+
+# ![Banner Image](assets/banner.png)
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/zx0r/LinkedIn-AI-Prompts)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![ATS Score](https://img.shields.io/badge/ATS_Score-100%2F100-brightgreen)](README.md#ats-optimization)
