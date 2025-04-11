@@ -10,25 +10,37 @@ domain:
 
 task:
   description: |
-    Create a customized [ProfileType] (CV or LinkedIn) tailored for the specified [TargetRole] in the [TargetIndustry] that adheres to these criteria:
-    1. Keyword Alignment: Integrate exact job description keywords into headings and bullet points to enhance ATS keyword matching.
-    2. Structured Formatting: Organize the resume/profile with clearly labeled sections:
+    Create a customized [ProfileType] tailored for the specified [TargetRole] in the [TargetIndustry] that adheres to these [ats_optimization_options]
+
+ats_optimization_options:
+  - keyword_alignment: |
+      Integrate exact job description keywords into headings and bullet points to enhance ATS keyword matching.
+  - structured_formatting: |
       For CV: Structure sections (Contact, Summary, Skills, Experience, Education & Certifications).
       For LinkedIn: Structure sections (Headline, About, Experience, Skills, Projects & Publications, Languages, Career Interests).
-      To align with ATS parsing best practices (chronological order, consistent date formats, no headers, footers, tables, or text boxes).
-    3. Quantifiable Achievements: Highlight performance-based accomplishments with specific metrics (e.g., "Increased system uptime by 20%", "Reduced deployment time from 3 hours to 30 minutes").
-    4. Semantic Enrichment: Utilize synonyms and industry-specific terminology recognized by semantic models like BERT/SESA to capture latent relevance and improve semantic similarity scoring.
-    5. Professional Summary: Craft a concise, keyword-optimized summary of 3–4 lines that encapsulates your professional expertise and aligns with the target role.
-    6. Skills Prioritization: List hard skills and certifications prominently at the beginning of the Skills section. Include soft skills supported by contextual evidence within the Experience section.
-    7. ATS-Friendly Formatting: Use simple fonts, minimal graphics, and avoid complex formatting elements to ensure compatibility with ATS. (Jobscan)
-    8. Projects & Publications: If applicable, add a section for Projects & Publications with links to public repositories or published papers to provide verifiable evidence of your work.
-    9. Bias Mitigation: Employ neutral language to promote fairness and avoid unconscious bias (e.g., use "Managed a team of 5" instead of "Led a female team").
-    10. International Standards Compliance: Exclude personal information such as photographs, date of birth, and nationality. Use UK or US English spelling as appropriate for the job location.
-
+      Use reverse-chronological order. Maintain consistent date formats (e.g., YYYY-MM).
+      Avoid headers, footers, tables, text boxes, or unnecessary images/graphics.
+  - quantifiable_achievements: |
+      Use metrics to show results (e.g., "Reduced latency by 40%", "Automated 3 workflows saving 10+ hours/week").
+  - semantic_enrichment: |
+      Apply synonyms and domain terms recognized by models like BERT/SESA for higher semantic match.
+  - professional_summary: |
+      Write a concise (3–4 line), keyword-rich summary aligned with the role.
+  - skills_prioritization: |
+      Emphasize hard skills and certifications first. Embed soft skills in context.
+  - ats_friendly_formatting: |
+      Use simple fonts, clean structure, minimal formatting—optimized for parsing. (Jobscan rules)
+  - projects_and_publications: |
+      If applicable, include verifiable projects or publications with links.
+  - bias_mitigation: |
+      Use inclusive language (e.g., "Managed team of 5" vs. gender-specific phrasing).
+  - international_standards_compliance: |
+      Exclude photos, dob, and nationality. Use regional English spelling as appropriate for the job location.
+  
 context:
   description: |
     To assist in crafting a tailored, ATS-optimized {ProfileType}, please provide the following information:
-    - [ProfileType] (CV or LinkedIn)
+    - [ProfileType] (CV or LinkedIn Profile)
     - [TargetRole] (e.g., AI Prompt Engineer, Machine Learning Engineer, NLP Researcher, etc.)
     - [TargetIndustry] (e.g., AI, FinTech, HealthTech, etc.)
     - [CurrentResume] (if available, please upload or insert your Current Resume)
@@ -38,7 +50,7 @@ context:
     - [Portfolio] (GitHub / Portfolio / Publications)
     - [Certifications] (if applicable, e.g., “AWS Certified DevOps Engineer,” “Prompt Engineering with OpenAI,” etc.)
 
-Additional context:
+additional context:
   description: |
     Would you like to enhance your application and stand out to recruiters?
     I can help you strengthen your professional profile with the following optional add-ons:
@@ -49,4 +61,4 @@ Additional context:
 response_format:
   description: |
     Produce the complete resume in Markdown or plain text.
-    At the end of the document, provide an "ATS Score Estimate" (0–100) along with a brief explanation of the factors contributing to this score, focusing on aspects like keyword optimization, formatting adherence, and semantic relevance.
+    At the end of the document, provide an "ATS Optimization Score" (0–100) along with a brief explanation of the factors contributing to this score, focusing on aspects like keyword optimization, formatting adherence, and semantic relevance.
