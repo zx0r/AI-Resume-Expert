@@ -37,6 +37,13 @@ context:
     - [Portfolio] (GitHub / Portfolio / Publications)
     - [Certifications] (if applicable, e.g., “AWS Certified DevOps Engineer,” “Prompt Engineering with OpenAI,” etc.)
 
+Additional context:
+  description: |
+    Want to make your application irresistible? I can help you:
+    - Generate a sleek PDF version with a modern design tailored for recruiters and hiring managers.
+    - Write a targeted cover letter—universal or industry-specific (e.g., FinTech, AI, or NLP roles).
+    - Create a passable LinkedIn profile with an SEO-optimized summary to boost discoverability.
+
 response_format:
   description: |
     Produce the complete resume in Markdown or plain text.
