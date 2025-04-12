@@ -32,7 +32,7 @@ Once this data is received, your CV/LinkedInProfile will be created from scratch
 
 ```bash
 # To generate a high-quality, ATS-optimized resume that effectively navigates AI resume screening systems, consider the following optimized prompt
-✅ Use this > step_by_step-prompt.yaml 
+✅ Use this > linkedin-cv-builder-prompt.yaml 
 
 # Updating your current resume for a specific [Target Role] in the [Target Industry]
 ! requires some improvement > resume_optimization-prompt.yaml 
