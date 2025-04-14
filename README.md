@@ -1,5 +1,4 @@
 # AI Resume Expert: Builder & Analyzer Prompts
-
 **Version:** 1.2 (Reflects latest `Resume_Analysis_Expert_Prompt`)
 
 <!-- ![Banner Image](assets/banner.png) -->
