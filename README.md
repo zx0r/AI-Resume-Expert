@@ -11,32 +11,98 @@
 ![Greenhouse](https://img.shields.io/badge/-Greenhouse-23D49B)
 ![Workday](https://img.shields.io/badge/-Workday-2D5DF5)
 
-#### Overview
+# AI Resume Expert: Builder & Analyzer Prompts
 
-LinkedInPromptKit is a toolkit designed to assist users in generating and updating resumes optimized for platforms like LinkedIn, Greenhouse, and Workday. Utilizing advanced prompt engineering techniques, this tool ensures that your CV aligns with Applicant Tracking Systems (ATS) and recruiter expectations.
+**Version:** 1.2 (Reflects latest `Resume_Analysis_Expert_Prompt`)
 
-- ATS-Friendly CV: Focus on keyword optimization, structured formatting, and measurable achievements. Avoid unnecessary graphics or images.
-- LinkedIn Profile: While slightly more flexible, LinkedIn should still maintain ATS-compatible formatting, especially for the Experience, Skills, and Education sections.
-- Make Both Sections Complement Each Other: Your LinkedIn profile should be a dynamic and rich representation of your CV but with some additional flexibility. Projects, publications, and career interests are areas where LinkedIn can stand out.
+## Project Description
 
-If your current resume is not available, you can continue to build a customized profile using the information you provided about your:
-- Target Role: What specific role are you aiming for (e.g. AI Hint Engineer, LLM Developer, DevOps Engineer)?
-- Target Industry: The industry you are focused on (e.g. FinTech, AI Research, Machine Learning, or another technical area).
-- Relevant Experience: Key skills, projects, and professional accomplishments that are most relevant to the target role.
-- Education: Your academic background, certifications, and any relevant coursework.
-- Skills: Both hard and soft skills applicable to the role.
-- Projects or Publications: If you have any open source projects, contributions, or publications that can demonstrate your expertise.
-- Portfolio: Links to your GitHub or other public repositories or websites that showcase your work.
+This project provides two sophisticated prompt templates designed to interact with a Large Language Model (LLM) acting as an **Expert Career Advisor**. The advisor specializes in **Artificial Intelligence (AI), Natural Language Processing (NLP), and Machine Learning (ML)** roles, possesses deep knowledge of modern **Applicant Tracking Systems (ATS)**, and understands **Talent Acquisition** strategies within the tech industry.
 
-Once this data is received, your CV/LinkedInProfile will be created from scratch, aligning it with the requirements of the desired position and ensuring that it follows ATS optimization best practices.
+The core goal is to leverage this expert AI persona to:
+1.  Provide actionable recommendations for **improving and optimizing** an existing resume (`Resume_Builder_Expert_Prompt`).
+2.  Conduct a **comprehensive analysis and assessment** of an existing resume's effectiveness (`Resume_Analysis_Expert_Prompt`).
 
-```bash
-# To generate a high-quality, ATS-optimized resume that effectively navigates AI resume screening systems, consider the following optimized prompt
-✅ Use this > linkedin-cv-builder-prompt.yaml 
+Both prompts are specifically tailored for candidates targeting technical roles in the competitive AI/ML/NLP space.
 
-# Updating your current resume for a specific [Target Role] in the [Target Industry]
-! requires some improvement > resume_optimization-prompt.yaml 
-```
+## Core Concepts & Features
+
+*   **Expert AI Persona:** The AI adopts the role of a seasoned career advisor with specific expertise in AI/ML/NLP hiring, ATS intricacies, and recruiter behavior.
+*   **Domain Focus:** Specifically designed for resumes targeting AI, Machine Learning, and Natural Language Processing positions.
+*   **Advanced ATS Knowledge:** The prompts instruct the AI to consider various ATS parsing mechanisms:
+    *   Keyword Matching (Frequency, Relevance)
+    *   Semantic Similarity (Vector Embeddings like Word2Vec/GloVe, Transformer models like BERT/SBERT/SESA)
+    *   Transformer-based Ranking (Contextual understanding like LinkedIn's LiGR)
+    *   Fairness Considerations
+*   **Recruiter Behavior Insights:** The analysis incorporates factors like recruiter skim-reading patterns, profile completeness, click-through rates (CTR), the impact of action verbs, and the importance of quantification.
+*   **Actionable Feedback:** Both prompts aim to provide specific, concrete feedback that the user can directly implement.
+*   **Context-Aware Analysis:** The quality and specificity of the feedback significantly increase when target job roles and descriptions are provided.
+
+## Prompts Overview
+
+This project includes two distinct prompt templates:
+
+1.  **`Resume_Builder_Expert_Prompt` (v1.1):**
+    *   **Goal:** To analyze an existing resume and provide highly specific, actionable **recommendations for improvement and rewriting**.
+    *   **Output:** Focuses on suggesting *how* to enhance different sections (Summary, Skills, Experience, Projects, Education) with rewritten examples, keyword suggestions, and quantification advice, all tailored for AI/ML/NLP roles and ATS optimization.
+
+2.  **`Resume_Analysis_Expert_Prompt` (v1.2):**
+    *   **Goal:** To perform a comprehensive, deep-level **analysis and assessment** of the resume's current state and effectiveness.
+    *   **Output:** Provides a structured report including overall assessment, detailed analysis of each section (including skills inventory and proficiency estimation), identification of strengths and weaknesses, ATS optimization checks (with score), course/certification recommendations, an overall resume score, and *conditional analyses* comparing the resume against a specific target role or job description if provided.
+
+## Persona Details
+
+The AI acts as an **Expert Career Advisor & Resume Strategist** with:
+*   Specialization in AI/NLP/ML recruitment.
+*   Experience in Talent Acquisition for top tech companies.
+*   Technical understanding of modern ATS (keyword, semantic, transformer-based).
+*   Awareness of recruiter metrics and behaviors (search ranking factors, CTR, quantification value).
+
+## Input Variables
+
+Both prompts utilize the following input variables:
+
+*   `resume_text` (**Required**): The full plain text content of the candidate's resume.
+*   `target_job_role` / `job_role` (**Optional, Highly Recommended**): The specific job title the candidate is targeting (e.g., "Machine Learning Engineer", "NLP Scientist").
+*   `target_job_description` / `job_description` (**Optional, Highly Recommended**): The full text of a specific job description the candidate is interested in.
+
+**Note:** Providing the optional variables significantly enhances the specificity and accuracy of the AI's feedback, especially regarding keyword alignment, skill gaps, and ATS performance for a particular target.
+
+## How to Use
+
+1.  **Choose the Right Prompt:**
+    *   Use `Resume_Builder_Expert_Prompt` when you want specific guidance on *how to rewrite and improve* your resume sections.
+    *   Use `Resume_Analysis_Expert_Prompt` when you want a detailed *assessment* of your resume's current strengths, weaknesses, ATS compatibility, and alignment with specific roles/jobs.
+2.  **Prepare Inputs:**
+    *   Extract the **plain text** from your resume. Avoid submitting formatted text directly from PDF/DOCX if possible, as formatting can interfere with analysis. Focus on the content.
+    *   Identify a specific `target_job_role` if you have one.
+    *   Copy the full text of a relevant `target_job_description` if available.
+3.  **Execute the Prompt:** Provide the inputs to the chosen prompt template within your LLM interface.
+4.  **Review the Output:** Carefully read the AI's analysis and recommendations.
+5.  **Implement & Iterate:**
+    *   Apply the actionable suggestions to improve your resume.
+    *   Consider using the `Resume_Analysis_Expert_Prompt` after making changes suggested by the `Resume_Builder_Expert_Prompt` to assess the improvements.
+6.  **Verify:** Always use your own judgment and verify the technical accuracy of suggestions. The AI provides expert *guidance*, but the candidate is the final owner of the resume content.
+7.  **Leverage Context:** Remember that providing the `target_job_role` and `target_job_description` unlocks the most powerful and tailored feedback, especially the conditional analysis sections in `Resume_Analysis_Expert_Prompt`.
+
+## Key Differences Between Prompts
+
+| Feature                  | `Resume_Builder_Expert_Prompt` (v1.1) | `Resume_Analysis_Expert_Prompt` (v1.2)          |
+| :----------------------- | :-------------------------------------- | :---------------------------------------------- |
+| **Primary Goal**         | Improvement & Rewriting Guidance        | Comprehensive Analysis & Assessment             |
+| **Output Focus**         | Actionable "how-to" suggestions, examples | Structured report, scores, detailed breakdown   |
+| **Key Sections**         | Recommendations per resume section      | Assessment, Skills Inventory, Strengths/Weaknesses, ATS Score, Resume Score, Conditional Analyses |
+| **Scoring**              | Estimated ATS Score                     | Estimated ATS Score, Overall Resume Score       |
+| **Conditional Analysis** | No (implicit use of context)            | Yes (explicit sections for Role/JD match)       |
+| **Use Case**             | Actively improving/editing the resume   | Diagnosing current state, checking alignment |
+
+## Technical Foundations
+
+The effectiveness of these prompts relies on the LLM's ability to understand and apply concepts related to:
+*   Natural Language Processing (for analyzing resume and job description text)
+*   Information Retrieval (simulating keyword and semantic search)
+*   Machine Learning Concepts (understanding the domain)
+*   Simulated Reasoning (adopting the persona and applying recruitment knowledge)
 
 #### Features
 
