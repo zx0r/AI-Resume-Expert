@@ -1,6 +1,6 @@
-## LinkedIn-AI-Prompts
+# AI Resume Expert: Builder & Analyzer Prompts
 
-**Empowering Resume Creation through Prompt Engineering**
+**Version:** 1.2 (Reflects latest `Resume_Analysis_Expert_Prompt`)
 
 <!-- ![Banner Image](assets/banner.png) -->
 
@@ -10,10 +10,6 @@
 ![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin) 
 ![Greenhouse](https://img.shields.io/badge/-Greenhouse-23D49B)
 ![Workday](https://img.shields.io/badge/-Workday-2D5DF5)
-
-# AI Resume Expert: Builder & Analyzer Prompts
-
-**Version:** 1.2 (Reflects latest `Resume_Analysis_Expert_Prompt`)
 
 ## Project Description
 
