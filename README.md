@@ -82,7 +82,7 @@ Both prompts utilize the following input variables:
 
 ## Key Differences Between Prompts
 
-| Feature                  | `Resume_Builder_Expert_Prompt` (v1.1) | `Resume_Analysis_Expert_Prompt` (v1.2)          |
+| Feature                  | `Resume_Builder_Expert_Prompt`  | `Resume_Analysis_Expert_Prompt`           |
 | :----------------------- | :-------------------------------------- | :---------------------------------------------- |
 | **Primary Goal**         | Improvement & Rewriting Guidance        | Comprehensive Analysis & Assessment             |
 | **Output Focus**         | Actionable "how-to" suggestions, examples | Structured report, scores, detailed breakdown   |
