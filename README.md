@@ -187,12 +187,31 @@ By aligning these sections appropriately, you can ensure consistency between you
 
 ---
 
-#### 🔍 ATS Optimization Score: 100/100 ✅
-**Breakdown**:
-- ✅ Keyword Matching: Matched all core job description terms like “CI/CD”, “Terraform”, “AWS”, “Kubernetes”, and “monitoring tools”.
-- ✅ Semantic Enrichment: Used synonyms (e.g., deployment rollback, automated provisioning, cloud-native architecture) recognized by transformer models.
-- ✅ Chronological Order & Consistent Dates: Ensures ATS can parse timelines accurately.
-- ✅ Impact Metrics: Achievements are data-driven and quantifiable.
-- ✅ Clean Format: No tables, images, or complex formatting.
-- ✅ Global Compliance: No personal identifiers, uses standard English spelling.
-- ✅ Minor Gaps: Lack of formal degree may slightly lower ranking with some systems, but offset by strong project section and certifications.
+##### Recommended Layout (Clean ATS-Friendly Style):
+```bash
+[Full Name] | Location | Phone | Email | GitHub | LinkedIn
+
+⚡ Professional Summary
+- Short and impactful 3–4 line summary tailored to the target job.
+
+🛠️ Skills
+- Bullet-list or categorized by technical domain (e.g., Languages, Tools, Infrastructure).
+
+💼 Experience
+Company Name – Role
+Date Range
+- Impact-oriented bullet points with metrics, tools used, and outcomes.
+
+📁 Projects (for AI/Tech Roles)
+- Title | Tools Used
+- 1–2 bullets on what you did, tech stack, and value.
+
+🎓 Education
+Degree or Field – Institution
+Dates | Relevant coursework or certifications (if recent).
+
+🏅 Certifications / Languages / Achievements (Optional)
+```
+---
+
+💼 **Happy offers for your dream job**
