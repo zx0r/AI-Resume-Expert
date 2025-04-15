@@ -218,16 +218,10 @@ Dates | Relevant coursework or certifications (if recent).
 ##### 🧠 1. AI / Prompt Engineering / LLMs
 Infrastructure-first engineer skilled in Unix systems, automation, and AI tooling. Translates abstract concepts into scalable LLM pipelines using structured thinking, rapid prototyping, and prompt-driven iteration.
 
-🔑 Keywords embedded: LLM, automation, AI tooling, structured thinking, prompt engineering, scalable pipelines
-
 ##### 💸 2. FinTech / Platform Engineering / DevOps
 Systems engineer with deep Unix/Linux expertise and a focus on secure, high-availability infrastructure. Converts technical complexity into scalable solutions through disciplined execution, planning, and quantifiable outcomes.
 
-🔑 Keywords embedded: secure infrastructure, availability, scalability, planning, measurable results, disciplined execution
-
 ##### 🚀 3. Startup / Generalist / Tech Stack Flexibility
 Agile infrastructure engineer blending Unix mastery with cross-platform customization and self-directed problem solving. Delivers efficient, scalable systems through rapid prototyping and structured analysis.
-
-🔑 Keywords embedded: agile, cross-platform, rapid prototyping, scalable systems, self-directed, structured analysis
 
 💼 **Happy offers for your dream job**
