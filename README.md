@@ -45,9 +45,9 @@ This project includes two distinct prompt templates:
     *   **Goal:** To perform a comprehensive, deep-level **analysis and assessment** of the resume's current state and effectiveness.
     *   **Output:** Provides a structured report including overall assessment, detailed analysis of each section (including skills inventory and proficiency estimation), identification of strengths and weaknesses, ATS optimization checks (with score), course/certification recommendations, an overall resume score, and *conditional analyses* comparing the resume against a specific target role or job description if provided.
 
-```bash
+```txt
 You are an experienced resume analyst with deep knowledge of industry standards, job requirements, and ATS (Applicant Tracking System) optimization practices.
-Your task is to provide a **comprehensive and detailed analysis** of the provided resume, identifying both strengths and areas for improvement.
+Your task is to provide a comprehensive and detailed analysis of the provided resume, identifying both strengths and areas for improvement.
 
 Structure your response as follows:
 [Provide a detailed evaluation of the resume’s quality, structure, and formatting. Highlight key issues (e.g., formatting errors, lack of organization), and suggest potential improvements.]
