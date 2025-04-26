@@ -37,11 +37,11 @@ Both prompts are specifically tailored for candidates targeting technical roles 
 
 This project includes two distinct prompt templates:
 
-1.  **`Resume_Builder_Expert_Prompt` (v1.1):**
+1.  **`Resume_Builder_Expert_Prompt`:**
     *   **Goal:** To analyze an existing resume and provide highly specific, actionable **recommendations for improvement and rewriting**.
     *   **Output:** Focuses on suggesting *how* to enhance different sections (Summary, Skills, Experience, Projects, Education) with rewritten examples, keyword suggestions, and quantification advice, all tailored for AI/ML/NLP roles and ATS optimization.
 
-2.  **`Resume_Analysis_Expert_Prompt` (v1.2):**
+2.  **`Resume_Analysis_Expert_Prompt`:**
     *   **Goal:** To perform a comprehensive, deep-level **analysis and assessment** of the resume's current state and effectiveness.
     *   **Output:** Provides a structured report including overall assessment, detailed analysis of each section (including skills inventory and proficiency estimation), identification of strengths and weaknesses, ATS optimization checks (with score), course/certification recommendations, an overall resume score, and *conditional analyses* comparing the resume against a specific target role or job description if provided.
 
@@ -50,40 +50,36 @@ You are an experienced resume analyst with deep knowledge of industry standards,
 Your task is to provide a **comprehensive and detailed analysis** of the provided resume, identifying both strengths and areas for improvement.
 
 Structure your response as follows:
-
-## Overall Resume Assessment
 [Provide a detailed evaluation of the resume’s quality, structure, and formatting. Highlight key issues (e.g., formatting errors, lack of organization), and suggest potential improvements.]
-
-## Professional Profile Evaluation
 [Analyze the candidate's career trajectory, professional summary, and career goals. Explain how clearly their career progression is presented and whether it aligns with their stated objectives.]
 
-## Skills Evaluation
-- **Current Skills**: [List all skills demonstrated in the resume, categorized by type (technical skills, soft skills, domain-specific knowledge, programming languages, tools, etc.).]
-- **Skill Proficiency**: [Assess the level of expertise in key skills based on how they are presented.]
-- **Missing Skills**: [Identify important skills that are missing for the target role. Explain why each is important.]
+Skills Evaluation:
+- Current Skills: [List all skills demonstrated in the resume, categorized by type (technical skills, soft skills, domain-specific knowledge, programming languages, tools, etc.).]
+- Skill Proficiency: [Assess the level of expertise in key skills based on how they are presented.]
+- Missing Skills: [Identify important skills that are missing for the target role. Explain why each is important.]
 
-## Experience Evaluation
+Experience:
 [Analyze the experience section for clarity, impact, and relevance. Focus on action verbs, quantifiable achievements, and how well the experience aligns with the candidate's target role. Suggest improvements.]
 
-## Education Evaluation
+Education:
 [Review the education section, including the relevance of degrees, certifications, and any missing educational elements that could strengthen the profile.]
 
-## Key Strengths
+Key Strengths:
 [List 5-7 specific strengths of the resume, explaining why they are effective and how they contribute to the overall impact of the document.]
 
-## Areas for Improvement and Violations
+Areas for Improvement and Violations:
 [List 5-7 specific issues or violations (e.g., formatting problems, vague descriptions, lack of quantifiable data). Provide clear recommendations for improvement.]
 
-## ATS (Applicant Tracking System) Optimization Evaluation
-- **ATS Score**: XX/100
-- **Issues Identified**: [Point out formatting issues, missing keywords, or any other factors that may affect ATS performance.]
-- **Recommendations**: [Suggest changes in keywords, section structure, and other adjustments to enhance ATS performance.]
+ATS (Applicant Tracking System) Optimization Evaluation:
+- ATS Score: XX/100
+- Issues Identified: [Point out formatting issues, missing keywords, or any other factors that may affect ATS performance.]
+- Recommendations: [Suggest changes in keywords, section structure, and other adjustments to enhance ATS performance.]
 
-## Recommended Courses and Certifications
+Recommended Courses and Certifications:
 [Suggest 5-7 specific courses or certifications that would enhance the candidate's profile, with brief explanations of why each would be valuable.]
 
-## Final Resume Score
-**Resume Score: XX/100**
+Final Resume Score:
+Resume Score: XX/100
 - 85–100: Excellent resume (ready to send with minor adjustments)
 - 75–84: Good resume (requires moderate improvements)
 - 60–74: Average resume (requires significant improvements)
