@@ -231,33 +231,6 @@ By aligning these sections appropriately, you can ensure consistency between you
 
 ---
 
-##### Recommended Layout (Clean ATS-Friendly Style):
-```bash
-[Full Name] | Location | Phone | Email | GitHub | LinkedIn
-
-⚡ Professional Summary
-- Short and impactful 3–4 line summary tailored to the target job.
-
-🛠️ Skills
-- Bullet-list or categorized by technical domain (e.g., Languages, Tools, Infrastructure).
-
-💼 Experience
-Company Name – Role
-Date Range
-- Impact-oriented bullet points with metrics, tools used, and outcomes.
-
-📁 Projects (for AI/Tech Roles)
-- Title | Tools Used
-- 1–2 bullets on what you did, tech stack, and value.
-
-🎓 Education
-Degree or Field – Institution
-Dates | Relevant coursework or certifications (if recent).
-
-🏅 Certifications / Languages / Achievements (Optional)
-```
----
-
 **Summary**
 ##### 🧠 1. AI / Prompt Engineering / LLMs
 Infrastructure-first engineer skilled in Unix systems, automation, and AI tooling. Translates abstract concepts into scalable LLM pipelines using structured thinking, rapid prototyping, and prompt-driven iteration.
